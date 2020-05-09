@@ -1,51 +1,75 @@
-const inputString = "ararrrrrratrg";
-const startingCutsceneNumber = 38;
-const cutscenePrefix = "PRISON_CUTSCENE0";
+// -------------------
+// start config.  change these values before running.
+// -------------------
+
+const inputFilename = "input.csv";
+const outputFilename = "output.txt";
 
 const speakers = {
-	'r': {
+	'Rosco speaking': {
 		name: 'CHARACTER_ROSCO',
 		portrait: 'this.portraitRosco'
 	},
 
-	'a': {
+	'Apollo speaking': {
 		name: 'CHARACTER_APOLLO',
 		portrait: 'PortraitManager.GetInstance().portraitMainCharacterNoSubjugator'
 	},
 
-	't': {
+	'Teris speaking': {
 		name: 'CHARACTER_TERIS',
 		portrait: 'this.portraitTeris'
 	},
 
-	'g': {
+	'Guard speaking': {
 		name: 'CHARACTER_GUARD',
 		portrait: 'this.portraitGuard'
 	}
 };
 
+// ------------------
+// end config
+// ------------------
+
+const fs = require('fs');
+const parse = require('csv-parse/lib/sync')
+
+const records = parse(fs.readFileSync(inputFilename), {
+	columns: true,
+	skip_empty_lines: true
+});
+
+if (typeof(records[0]['Dialog keys']) == 'undefined') {
+	console.log("Top-left column needs to say 'Dialog keys' (no apostrophes)");
+	System.exit(0);
+}
+
+if (typeof(records[0]['Speaker descriptions']) == 'undefined') {
+	console.log("Top row needs to say 'Dialog keys', then 'Speaker descriptions' (no apostrophes in either");
+	System.exit(0);
+}
+
 var resultString = "";
 
-var currentCutsceneNumber = startingCutsceneNumber;
-for (var i = 0; i < inputString.length; i++) {
-	var characterLetter = inputString.charAt(i);
-	if (typeof(speakers[characterLetter]) == 'undefined') {
-		console.log("Unknown letter '" + characterLetter + "' in inputString.  Ensure there's a matching key in 'speakers' object.");
+for (var i = 0; i < records.length; i++) {
+	var speakerDescription = records[i]['Speaker descriptions'];
+	if (typeof(speakers[speakerDescription]) == 'undefined') {
+		console.log("Unknown speaker description '" + speakerDescription + "' in inputString.  Ensure there's a matching key in 'speakers' object in app.js");
 		System.exit(1);
 	}
 	else {
 		resultString += "\n";
-		resultString += "            Game.instance.SetPortraitImage(" + speakers[characterLetter].portrait + ");\n";
+		resultString += "            Game.instance.SetPortraitImage(" + speakers[speakerDescription].portrait + ");\n";
 
 
-resultString += "            Game.instance.ShowMessage(\n";
-resultString += "                I2.Loc.LocalizationManager.GetTranslation(\"" + speakers[characterLetter].name + "\"),\n";
-resultString += "                I2.Loc.LocalizationManager.GetTranslation(\"" + cutscenePrefix + currentCutsceneNumber + "\"\n";
-resultString += "            );\n";
-resultString += "            yield return new WaitUntilMessageIsClosed();\n";
-
-        currentCutsceneNumber++;
+		resultString += "            Game.instance.ShowMessage(\n";
+		resultString += "                I2.Loc.LocalizationManager.GetTranslation(\"" + speakers[speakerDescription].name + "\"),\n";
+		resultString += "                I2.Loc.LocalizationManager.GetTranslation(\"" + records[i]['Dialog keys'] + "\"\n";
+		resultString += "            );\n";
+		resultString += "            yield return new WaitUntilMessageIsClosed();\n";
 	}
 }
 
-console.log(resultString);
+fs.writeFileSync(outputFilename, resultString);
+console.log(resultString + "\n\n");
+console.log("Output was also written to " + outputFilename + "\n\n");

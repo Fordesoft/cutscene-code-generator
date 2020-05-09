@@ -1,0 +1,266 @@
+
+            Game.instance.SetPortraitImage(PortraitManager.GetInstance().portraitMainCharacterNoSubjugator);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_APOLLO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE039"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE040"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE041"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE042"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE043"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitGuard);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_GUARD"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE044"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE045"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE046"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE047"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE048"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE049"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(PortraitManager.GetInstance().portraitMainCharacterNoSubjugator);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_APOLLO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE050"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE051"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE052"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE053"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE054"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE055"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE056"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE057"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(PortraitManager.GetInstance().portraitMainCharacterNoSubjugator);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_APOLLO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE058"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE059"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE060"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE061"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE062"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE063"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE064"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE065"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE066"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE067"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE068"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE069"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE070"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE071"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE072"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitRosco);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_ROSCO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE073"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(PortraitManager.GetInstance().portraitMainCharacterNoSubjugator);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_APOLLO"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE074"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE075"
+            );
+            yield return new WaitUntilMessageIsClosed();
+
+            Game.instance.SetPortraitImage(this.portraitTeris);
+            Game.instance.ShowMessage(
+                I2.Loc.LocalizationManager.GetTranslation("CHARACTER_TERIS"),
+                I2.Loc.LocalizationManager.GetTranslation("PRISON_CUTSCENE076"
+            );
+            yield return new WaitUntilMessageIsClosed();
