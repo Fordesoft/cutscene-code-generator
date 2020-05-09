@@ -40,13 +40,18 @@ const records = parse(fs.readFileSync(inputFilename), {
 });
 
 if (typeof(records[0]['Dialog keys']) == 'undefined') {
-	console.log("Top-left column needs to say 'Dialog keys' (no apostrophes)");
-	System.exit(0);
+	console.log("Top row needs to say 'Dialog keys', then 'Speaker descriptions', then 'English' (no apostrophes in any).  Missing 'Dialog keys'");
+	process.exit(0);
 }
 
 if (typeof(records[0]['Speaker descriptions']) == 'undefined') {
-	console.log("Top row needs to say 'Dialog keys', then 'Speaker descriptions' (no apostrophes in either");
-	System.exit(0);
+	console.log("Top row needs to say 'Dialog keys', then 'Speaker descriptions', then 'English' (no apostrophes in any).  Missing 'Speaker descriptions'");
+	process.exit(0);
+}
+
+if (typeof(records[0]['English']) == 'undefined') {
+	console.log("Top row needs to say 'Dialog keys', then 'Speaker descriptions', then 'English' (no apostrophes in any).  Missing 'English'");
+	process.exit(0);
 }
 
 var resultString = "";
@@ -55,7 +60,7 @@ for (var i = 0; i < records.length; i++) {
 	var speakerDescription = records[i]['Speaker descriptions'];
 	if (typeof(speakers[speakerDescription]) == 'undefined') {
 		console.log("Unknown speaker description '" + speakerDescription + "' in inputString.  Ensure there's a matching key in 'speakers' object in app.js");
-		System.exit(1);
+		process.exit(1);
 	}
 	else {
 		resultString += "\n";
@@ -64,7 +69,7 @@ for (var i = 0; i < records.length; i++) {
 
 		resultString += "            Game.instance.ShowMessage(\n";
 		resultString += "                I2.Loc.LocalizationManager.GetTranslation(\"" + speakers[speakerDescription].name + "\"),\n";
-		resultString += "                I2.Loc.LocalizationManager.GetTranslation(\"" + records[i]['Dialog keys'] + "\"\n";
+		resultString += "                I2.Loc.LocalizationManager.GetTranslation(\"" + records[i]['Dialog keys'] + "\") // " + records[i]['English'] + "\n";
 		resultString += "            );\n";
 		resultString += "            yield return new WaitUntilMessageIsClosed();\n";
 	}

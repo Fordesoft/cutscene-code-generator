@@ -1,39 +1,39 @@
-Dialog keys,Speaker descriptions
-PRISON_CUTSCENE039,Apollo speaking
-PRISON_CUTSCENE040,Rosco speaking
-PRISON_CUTSCENE041,Teris speaking
-PRISON_CUTSCENE042,Rosco speaking
-PRISON_CUTSCENE043,Teris speaking
-PRISON_CUTSCENE044,Guard speaking
-PRISON_CUTSCENE045,Teris speaking
-PRISON_CUTSCENE046,Teris speaking
-PRISON_CUTSCENE047,Teris speaking
-PRISON_CUTSCENE048,Rosco speaking
-PRISON_CUTSCENE049,Rosco speaking
-PRISON_CUTSCENE050,Apollo speaking
-PRISON_CUTSCENE051,Rosco speaking
-PRISON_CUTSCENE052,Rosco speaking
-PRISON_CUTSCENE053,Teris speaking
-PRISON_CUTSCENE054,Rosco speaking
-PRISON_CUTSCENE055,Teris speaking
-PRISON_CUTSCENE056,Rosco speaking
-PRISON_CUTSCENE057,Rosco speaking
-PRISON_CUTSCENE058,Apollo speaking
-PRISON_CUTSCENE059,Rosco speaking
-PRISON_CUTSCENE060,Rosco speaking
-PRISON_CUTSCENE061,Teris speaking
-PRISON_CUTSCENE062,Rosco speaking
-PRISON_CUTSCENE063,Teris speaking
-PRISON_CUTSCENE064,Rosco speaking
-PRISON_CUTSCENE065,Teris speaking
-PRISON_CUTSCENE066,Rosco speaking
-PRISON_CUTSCENE067,Teris speaking
-PRISON_CUTSCENE068,Rosco speaking
-PRISON_CUTSCENE069,Teris speaking
-PRISON_CUTSCENE070,Rosco speaking
-PRISON_CUTSCENE071,Teris speaking
-PRISON_CUTSCENE072,Rosco speaking
-PRISON_CUTSCENE073,Rosco speaking
-PRISON_CUTSCENE074,Apollo speaking
-PRISON_CUTSCENE075,Teris speaking
-PRISON_CUTSCENE076,Teris speaking
+Dialog keys,Speaker descriptions,English
+PRISON_CUTSCENE039,Apollo speaking,Yeah.|The Ether keeps it in check.|But it's been a while since I've had any.
+PRISON_CUTSCENE040,Rosco speaking,"Hmm.|Sorry to say, but you won't have to deal with it for long.|Guards here are plannin' to execute us in the morning.|They're roundin' up a bunch of us Resistance bandits.|Going to make an example out of us.|Probably going to lump you in with us, seein' as how you're a Demon Summoner as well.|Warden told me that on my way in.|They want to make sure none of the civilians 'round here get any funny ideas about picking up Subjugators.|Too hard for the Crown to control people when they can fight back, you know.|They're transferrin' a few more Resistance members here tonight, and then tomorrow, it's lights out for everyone..."
+PRISON_CUTSCENE041,Teris speaking,"Oh hey, if it isn't Rosco!|Long time no see, buddy!|I didn't know they'd nabbed you. Not as stealthy as you used to be, eh?"
+PRISON_CUTSCENE042,Rosco speaking,"Pfft.|Don't get cocky now, Teris.|It's lookin' like they caught you, too."
+PRISON_CUTSCENE043,Teris speaking,"Hah! Well, about that..."
+PRISON_CUTSCENE044,Guard speaking,Enough chatting. Into the cell.
+PRISON_CUTSCENE045,Teris speaking,"Alright, alright."
+PRISON_CUTSCENE046,Teris speaking,"Nah, they didn't catch me.|You see..."
+PRISON_CUTSCENE047,Teris speaking,It's no coincidence.|I'm here to get you out.
+PRISON_CUTSCENE048,Rosco speaking,"Heh, I should've known..."
+PRISON_CUTSCENE049,Rosco speaking,"Hey Apollo, you hear that?|We're bustin' out of here.|I'm presumin' you're gonna wanna spring outta here with us, eh?"
+PRISON_CUTSCENE050,Apollo speaking,I thought you'd never ask.
+PRISON_CUTSCENE051,Rosco speaking,Atta boy.
+PRISON_CUTSCENE052,Rosco speaking,This guy Apollo is a Demon Summoner like us.
+PRISON_CUTSCENE053,Teris speaking,Really?|What faction?
+PRISON_CUTSCENE054,Rosco speaking,No faction.
+PRISON_CUTSCENE055,Teris speaking,What?|Just a random guy out prowling around summoning demons?|Not part of any Resistance faction at all?
+PRISON_CUTSCENE056,Rosco speaking,That's right. Say...
+PRISON_CUTSCENE057,Rosco speaking,"What's your next step, Apollo?|Once you're outta here, I mean."
+PRISON_CUTSCENE058,Apollo speaking,"Well, I ha--|ugh..."
+PRISON_CUTSCENE059,Rosco speaking,"Stomach pains again, eh?|Tell you what. Come with us when we're out.|I'm sure we can get you some Ether.|Don't want you dyin' on us, now.|I meant what I said about everyone deservin' Ether access."
+PRISON_CUTSCENE060,Rosco speaking,"So, how we gettin' out of here?"
+PRISON_CUTSCENE061,Teris speaking,"Hey, you're our squad's tactician.|Shouldn't you already know?"
+PRISON_CUTSCENE062,Rosco speaking,Real funny.|I'm good at plannin' missions when I'm not locked up.|But plannin' my own escape without any resources...
+PRISON_CUTSCENE063,Teris speaking,"Really, though.|Here's how it's going down.|We're going to overrun the place with demons so we can make our escape."
+PRISON_CUTSCENE064,Rosco speaking,"How's that? A Subjugator only lets you summon four demons at once, right?|You'd need a hell of a lot of summoners to overrun a place this big."
+PRISON_CUTSCENE065,Teris speaking,That's the beauty of it.|I said we'd overrun the place with demons...|But I never said they were *our* demons!
+PRISON_CUTSCENE066,Rosco speaking,???
+PRISON_CUTSCENE067,Teris speaking,We have guys bringing in a ton of demon-attracting incense.|We're going to lure hundreds of wild demons over here all at once.|The halls will be flooded with them!|As the guards are dealing with the chaos and running for their lives...|A few of our guys will run in and unlock the doors.
+PRISON_CUTSCENE068,Rosco speaking,Hell of a plan.|But how are we going to get out of here when the halls are full of demons?
+PRISON_CUTSCENE069,Teris speaking,"We'll just need to fight out way out.|The guys will be searching for our confiscated Subjugators and handing them off to us when they open our doors.|Even with our Subjugators, I expect it'll be tough getting out."
+PRISON_CUTSCENE070,Rosco speaking,"As long as we play it smart, I'm sure we'll get out alive."
+PRISON_CUTSCENE071,Teris speaking,True. Make sure to rest up between battles if needed.|Nice thing about a prison is that there are plenty of beds.
+PRISON_CUTSCENE072,Rosco speaking,"Smart.|But resting in one of these cells out in the open, with demons roamin' about...|That'd be a foolish move.|Better stick with the beds at the end of the hallways, like the one in Apollo's cell."
+PRISON_CUTSCENE073,Rosco speaking,"You hear that, Apollo?|You won't be able to rest in any of the beds except the ones at the end of the hallways.|Otherwise you can guarantee those big, bad demons will gobble you right up.|Maybe they'll gobble you up anyway, but at least it's a *little* safer being tucked away at the hallway ends."
+PRISON_CUTSCENE074,Apollo speaking,Got it.
+PRISON_CUTSCENE075,Teris speaking,"Now that you two know the plan, I just need to whistle out the window to give the ready signal, and..."
+PRISON_CUTSCENE076,Teris speaking,Showtime.
